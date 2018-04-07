@@ -31,6 +31,7 @@ a {
 	text-transform: uppercase;
 	margin-top: -.625em; /* -10px/16px */
 	padding-top: .75em;
+  padding-left: 5em;
 }
 #nav ul {
 	width: 400px;
@@ -51,3 +52,12 @@ a {
 	margin-right: 12px;
 }
 #nav ul li a img { margin-right: 3%; }
+
+/** ----------------------
+  first-row
+---------------------- **/
+
+#first-row {
+  background-color: grey;
+  height: 3px;
+}
