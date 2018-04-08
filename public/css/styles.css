@@ -10,7 +10,8 @@ ol, ul { list-style: none; }
  	general
 ---------------------- **/
 body {
-  background-color: #25CCF7;
+  background-color: #333;
+  width: 100%;
 }
 
 a {
@@ -27,11 +28,10 @@ a {
 #nav {
 	width: 100%;
 	height: 1.75em; /* 28px/16px */
-	background: #25CCF7;
+	background: #333;
 	text-transform: uppercase;
 	margin-top: -.625em; /* -10px/16px */
 	padding-top: .75em;
-  padding-left: 5em;
 }
 #nav ul {
 	width: 400px;
@@ -42,22 +42,32 @@ a {
 #nav ul li { min-width: 13.75%; float: left; margin-left: 3%;
 }
 #nav ul li:after { content:'\002F'; }
-#nav ul li.twitter:after { content: ''; }
 #nav ul li.current a, #nav ul li a:hover { color: grey; }
-#nav ul li.twitter { width: 30%; margin-right: 0; }
 #nav ul li a {
 	color: white;
 	font-size: 0.875em; /* 14px/16px */
 	font-weight: 300;
 	margin-right: 12px;
 }
-#nav ul li a img { margin-right: 3%; }
 
 /** ----------------------
-  first-row
+  body rows
 ---------------------- **/
 
-#first-row {
+.div-border {
   background-color: grey;
   height: 3px;
+}
+
+#second-row {
+  background-image: url('https://cdn.pixabay.com/photo/2016/02/07/19/48/aurora-1185464_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  display: flex;              /* establish flex container */
+  flex-direction: column;     /* stack flex items vertically */
+  justify-content: center;    /* center items vertically, in this case */
+  align-items: center;        /* center items horizontally, in this case */
 }
