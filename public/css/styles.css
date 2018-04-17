@@ -34,7 +34,7 @@ a {
 	padding-top: .75em;
 }
 #nav ul {
-	width: 400px;
+	width: 350px;
 	margin: .375em auto;
   margin-left: 1em;
 	color: white;
@@ -57,11 +57,11 @@ a {
 
 .div-border {
   background-color: grey;
-  height: 2px;
+  height: .05em;
 }
 
 #second-row {
-  background-image: url('https://cdn.pixabay.com/photo/2016/02/07/19/48/aurora-1185464_960_720.jpg');
+  background-image: url('../aurora.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
